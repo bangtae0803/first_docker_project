@@ -1,0 +1,31 @@
+#itemList{
+    text-align : center;
+}
+#itemList td {
+    padding: 10px;
+  }
+
+#itemTable {
+    width: 500px;
+    table-layout: fixed;
+}
+  
+#itemTable th, #itemTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+ }
+#itemTable th,
+#itemTable td{
+   border-color: transparent;
+}
+#itemTable th:nth-child(2) {
+    width: 200px; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
